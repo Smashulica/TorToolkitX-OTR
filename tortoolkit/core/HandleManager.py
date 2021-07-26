@@ -595,7 +595,7 @@ async def set_password_zip(message):
             await message.reply(f"Cannot update the password this is not your download.")
 
 async def start_handler(event):
-    msg = "👋🏻 Hello ! 👀 My master is @iarbadevanzare 💀 <a href='https://t.me/OTRportal'>JOIN US HERE</a> and i have been created specialy for 👇🏻"
+    msg = "👋🏻 Hello ! 👀 My master is @iarbadevanzare 💀 <a href='https://t.me/OTRportal'>JOIN US HERE</a> and i have been created specially for 👇🏻"
     await event.reply(msg, parse_mode="html")
 
 def progress_bar(percentage):
