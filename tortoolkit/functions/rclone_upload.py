@@ -84,11 +84,11 @@ async def rclone_upload(path,message,user_msg,dest_drive,dest_base,edit_time,con
         gid = await get_glink(dest_drive,dest_base,os.path.basename(path),conf_path)
         torlog.info(f"Upload folder id :- {gid}")
         
-        folder_link = f"https://drive.google.com/folderview?id={gid[0]}"
+        folder_link = f"https://drive.otrleech.workers.dev/0:/"
 
         buttons = []
         buttons.append(
-            [KeyboardButtonUrl("Drive URL",folder_link)]
+            [KeyboardButtonUrl("⚡ Go to Index ⚡",folder_link)]
         )
         gd_index = get_val("GD_INDEX_URL")
         if gd_index:
