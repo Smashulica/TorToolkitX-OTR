@@ -23,7 +23,7 @@ six==1.15.0
 Telethon==1.20
 TgCrypto==1.2.2
 torrentool==1.1.0
-urllib3==1.25.10
+urllib3==1.26.5
 yarl==1.5.1
 youtube-dl
 instaloader==4.6
